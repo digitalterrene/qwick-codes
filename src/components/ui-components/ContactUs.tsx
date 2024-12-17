@@ -24,7 +24,7 @@ export default function ContactUs() {
 
         <div className="mt-12 grid items-center  lg:grid-cols-2 gap-6 lg:gap-16">
           <div className="flex flex-col  bg-white/10 rounded-xl p-4 sm:p-6 lg:p-8 dark:bg-secondary dark:border-gray-700">
-            <h2 className="mb-8 text-xl font-semibold text-gray-300 dark:text-_primary">
+            <h2 className="mb-8 text-xl font-semibold  text-white">
               Fill in the form
             </h2>
 
@@ -192,7 +192,7 @@ export default function ContactUs() {
                   className="mt-2 inline-flex items-center text-blue-500 gap-x-2 text-sm font-medium      dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  qcodes@larrykingstone.com
+                  info@larrykingstone.com
                 </a>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function ContactUs() {
                   className="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-blue-500 hover:text-gray-800 dark:text-blue-800 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  quick_codes_sa
+                  https://www.instagram.com/larry_kingstone
                 </a>
               </div>
             </div>

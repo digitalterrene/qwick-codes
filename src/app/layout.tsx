@@ -10,7 +10,7 @@ import Theme from "@/utils/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://qcodes.larrykingstone.com"),
+  metadataBase: new URL("https://qwick-codes.vercel.app"),
   title: {
     default: headDetails?.title || "Web Services Agency: Qwik Codes",
     template: "%s - Qwik Codes",
@@ -19,19 +19,19 @@ export const metadata: Metadata = {
   author: "Qwik Codes",
   keywords: keyswords,
   image: "/logo.png",
-  siteUrl: "https://qcodes.larrykingstone.com",
-  url: "https://qcodes.larrykingstone.com",
+  siteUrl: "https://qwick-codes.vercel.app",
+  url: "https://qwick-codes.vercel.app",
   siteName: "Qwik Codes Agency",
   type: "website",
   locale: "en_US",
   openGraph: {
     title: headDetails?.title,
     description: headDetails?.description,
-    url: "https://qcodes.larrykingstone.com",
+    url: "https://qwick-codes.vercel.app",
     siteName: "Qwik Codes",
     locale: "en_US",
     type: "website",
-    images: ["https://qcodes.larrykingstone.com/og.png"],
+    images: ["https://qwick-codes.vercel.app/og.png"],
   },
   twitter: {
     card: "/images/og.png",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: `${headDetails?.description}`,
     creator: "@qcodesSa",
     creatorId: "1467726470533754880",
-    images: ["https://qcodes.larrykingstone.com/og.png"], // Must be an absolute URL
+    images: ["https://qwick-codes.vercel.app/og.png"], // Must be an absolute URL
   },
 };
 

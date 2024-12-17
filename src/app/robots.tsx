@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: `https://qcodes.larrykingstone.com/sitemap.xml`,
+    sitemap: `https://qwick-codes.vercel.app/sitemap.xml`,
   };
 }

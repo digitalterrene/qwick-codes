@@ -30,7 +30,7 @@ export default async function page({ searchParams }: any) {
 
 async function fetchTrivia(category: string) {
   try {
-    const apiUrl = `https://qcodes.larrykingstone.com/api/trivia/${category}`;
+    const apiUrl = `https://qwick-codes.vercel.app/api/trivia/${category}`;
     const response = await fetch(apiUrl, {
       method: "GET",
       mode: "cors",

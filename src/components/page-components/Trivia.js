@@ -93,7 +93,7 @@ export default function Trivia({ qns }) {
           onClick={() => {
             router.push(pathname + `?category=applications`);
           }}
-          className="hs-tab-active:border-blue-600 text-xs hs-tab-active:bg-blue-500 hs-tab-active:text-white dark:hs-tab-active:text-white dark:hs-tab-active:border-b-blue-600 relative min-w-0 flex-1 bg-white first:border-s-0 border-s border-b-2 py-4 px-2 md:px-4 text-gray-500 hover:text-gray-700 md:text-sm font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400"
+          className="hs-tab-active:border-blue-600 text-xs text-white hs-tab-active:bg-blue-500 hs-tab-active:text-white dark:hs-tab-active:text-white dark:hs-tab-active:border-b-blue-600 relative min-w-0 flex-1 bg-white first:border-s-0 border-s border-b-2 py-4 px-2 md:px-4   hover:text-gray-700 md:text-sm font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400"
           id="bar-with-underline-item-3"
           data-hs-tab="#bar-with-underline-3"
           aria-controls="bar-with-underline-3"
@@ -112,8 +112,7 @@ export default function Trivia({ qns }) {
           <div>
             <div className="lg:grid    grid-cols-2 lg:gap-10 justify-between p-4 lg:p-8">
               <div className="pt-12 space-y-6">
-                <p className="text-gray-300 dark:text-_primary ">
-                  {" "}
+                <p className="text-white dark:text-_primary ">
                   Cant's see the Question? Reload page
                 </p>
 
