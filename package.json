@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@alloc/qwik-lru": "^5.1.0",
     "@aws-sdk/client-ses": "^3.502.0",
     "@formspree/react": "^2.5.1",
     "@material-tailwind/react": "^2.1.8",
